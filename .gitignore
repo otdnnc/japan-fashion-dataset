@@ -1,0 +1,24 @@
+# Data files (too large for GitHub — hosted on Hugging Face)
+*.parquet
+*.csv
+*.arrow
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.local
