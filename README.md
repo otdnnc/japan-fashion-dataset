@@ -4,9 +4,17 @@
 
 ## データセット概要
 
-- **ファイル形式**: Apache Parquet (Snappy 圧縮)
-- **言語**: 日本語 (ja)
-- **ドメイン**: ファッション / アパレル / Eコマース
+| 項目 | 内容 |
+|---|---|
+| レコード数 | 約 400 万件以上 (4M+ rows) |
+| ファイルサイズ | 約 5 GB (Snappy 圧縮済み Parquet) |
+| カラム数 | 15 (ネストされた struct/list 含む) |
+| ファイル形式 | Apache Parquet (Snappy 圧縮) |
+| 言語 | 日本語 (ja) |
+| ドメイン | ファッション / アパレル / Eコマース |
+| ライセンス | CC BY-NC 4.0 (非商用) |
+
+日本のファッションEコマース由来としては国内最大級の規模で、画像URL・ブランド・カテゴリ・キーワード・バリエーション (色/サイズ) などのリッチなメタデータを含むため、マルチモーダル学習やレコメンデーション研究にすぐに活用できます。
 
 ## 想定ユースケース
 
@@ -262,9 +270,17 @@ This is a product catalog dataset collected from a major Japanese fashion e-comm
 
 ## Dataset Overview
 
-- **File format**: Apache Parquet (Snappy compression)
-- **Language**: Japanese (ja)
-- **Domain**: Fashion / Apparel / E-commerce
+| Property | Value |
+|---|---|
+| Records | 4M+ rows |
+| File size | ~5 GB (Snappy-compressed Parquet) |
+| Columns | 15 (including nested struct/list fields) |
+| File format | Apache Parquet (Snappy compression) |
+| Language | Japanese (ja) |
+| Domain | Fashion / Apparel / E-commerce |
+| License | CC BY-NC 4.0 (non-commercial) |
+
+One of the largest publicly available Japanese fashion e-commerce datasets, packed with rich metadata — image URLs, brands, categories, keywords, and variations (colors/sizes) — ready for multimodal learning and recommendation research out of the box.
 
 ## Intended Use Cases
 
