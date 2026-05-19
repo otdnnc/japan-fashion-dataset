@@ -1,26 +1,3 @@
----
-license: cc-by-nc-4.0
-language:
-- ja
-task_categories:
-- image-classification
-- image-to-text
-- text-classification
-- feature-extraction
-- zero-shot-classification
-tags:
-- fashion
-- e-commerce
-- zozotown
-- japanese
-- multimodal
-- apparel
-- product-catalog
-size_categories:
-- 1M<n<10M
-pretty_name: Japan Fashion Items Dataset
----
-
 # ファッションアイテムデータセット
 
 日本の大手ファッションEコマースサイトから収集された商品カタログデータセットです。ブランド、カテゴリ、価格、商品画像URL、商品説明文、バリエーション（色・サイズ）など、ファッションアイテムに関するリッチなメタデータを含んでおり、商品分類、レコメンデーション、マルチモーダル学習、画像-テキスト対応学習などの研究・開発用途に利用できます。
